@@ -1,42 +1,75 @@
 <!DOCTYPE html>
-<html lang="ru" class="light">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Кот Кокос</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-white text-black">
     <header class="container mx-auto">
-      <div class="flex justify-between pt-10">
+      <div class="flex justify-between mt-10">
         <img
           src="./images/logo.jpg"
-          class="w-36 h-36 rounded-full border-2 border-black border-solid"
+          class="w-36 h-36 rounded-full border-2 border-black border-solid object-cover"
           alt="Логотип на котором изображен лев и надпись Кот Кокос"
         />
-        <div class="flex items-center">
-          <a href="#" class="mr-50 aTextHeader">Обо мне</a>
-          <a href="#" class="mr-50 aTextHeader">Моя жизнь</a>
-          <a href="#" class="aTextHeader">Связь со мной</a>
-        </div>
-        <div class="flex items-center">
-          <button
-            class="buttonHeader mr-1"
+        <div class="flex items-center space-x-32">
+          <a href="#" class="hover:underline font-bold text-xl">Обо мне</a>
+          <a href="#" class="hover:underline font-bold text-xl">Моя жизнь</a>
+          <a href="#" class="hover:underline font-bold text-xl"
+            >Связаться со мной</a
           >
-          &#9788
+        </div>
+        <div class="flex items-center space-x-9">
+          <button
+            class="w-12 h-12 rounded-full border-2 border-black border-solid object-cover bg-amber-400"
+          >
+            &#9788;
           </button>
           <button
-            class="buttonHeader" 
+            class="w-12 h-12 rounded-full border-2 border-black border-solid object-cover bg-blue-700"
           >
-          &#9790
+            &#9790;
           </button>
         </div>
       </div>
     </header>
-    <main>
-      <section>
-
+    <main class="container mx-auto">
+      <section
+        class="bg-[url('/images/back-image.jpg')] bg-no-repeat object-cover bg-center w-full mt-10"
+      >
+        <div
+          class="absolut bg-black/50 top-0 left-0 h-full w-full flex flex-col items-center"
+        >
+          <h1 class="font-bold text-4xl mt-10 mb-5 text-white">
+            Привет, меня зовут Кот Кокос!
+          </h1>
+          <img
+            src="./images/image-description.jpg"
+            class="mb-5 rounded-full border-2 border-white border-solid object-cover"
+            alt="Фото кота Кокоса с высунытым языком"
+          />
+          <p class="max-w-4xl text-center font-normal text-lg text-white">
+            Приветствую тебя, дорогой друг! Меня зовут Кокос, я&nbsp;&mdash;
+            балинезийский кот. Моя порода известна своей красотой
+            и&nbsp;грациозностью, но&nbsp;я&nbsp;не&nbsp;хочу ничем хвастаться.
+            Я&nbsp;просто люблю играть и&nbsp;есть вкусняшки, которые мой
+            любимый хозяин Влад готовит для меня. Хоть я&nbsp;и&nbsp;трусливый
+            кот, я&nbsp;всегда готов поддержать своего хозяина и&nbsp;провести
+            время вместе. Я&nbsp;не&nbsp;очень люблю мыться, но&nbsp;стараюсь
+            выглядеть красиво, чтобы всегда доставлять удовольствие своему
+            хозяину. Я&nbsp;рад знакомству с&nbsp;тобой и&nbsp;надеюсь, что
+            мы&nbsp;станем хорошими друзьями! Муррр!
+          </p>
+        </div>
       </section>
     </main>
   </body>
