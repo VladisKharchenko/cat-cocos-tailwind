@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" id="1" class="light">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,29 +13,37 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-white text-black">
+  <body class="bg-white text-black dark:bg-black">
     <header class="container mx-auto">
       <div class="flex justify-between mt-10">
         <img
           src="./images/logo.jpg"
-          class="w-36 h-36 rounded-full border-2 border-black border-solid object-cover"
+          class="w-36 h-36 rounded-full border-2 border-black border-solid object-cover dark:border-white"
           alt="Логотип на котором изображен лев и надпись Кот Кокос"
         />
-        <div class="flex items-center space-x-32">
-          <a href="#" class="hover:underline font-bold text-xl">Обо мне</a>
-          <a href="#" class="hover:underline font-bold text-xl">Моя жизнь</a>
-          <a href="#" class="hover:underline font-bold text-xl"
+        <div class="flex items-center space-x-32 dark:text-white">
+          <a href="#Обо мне" class="hover:underline font-bold text-xl"
+            >Обо мне</a
+          >
+          <a href="#Моя жизнь" class="hover:underline font-bold text-xl"
+            >Моя жизнь</a
+          >
+          <a
+            href="mailto:CatCOCOS@yandex.ru"
+            class="hover:underline font-bold text-xl"
             >Связаться со мной</a
           >
         </div>
         <div class="flex items-center space-x-9">
           <button
-            class="w-12 h-12 rounded-full border-2 border-black border-solid object-cover bg-amber-400 hover:shadow-3xl"
+            id="sun"
+            class="w-12 h-12 rounded-full border-2 border-black border-solid object-cover bg-amber-400 hover:shadow-3xl dark:border-white dark:hover:shadow-4xl"
           >
             &#9788;
           </button>
           <button
-            class="w-12 h-12 rounded-full border-2 border-black border-solid object-cover bg-blue-700 hover:shadow-3xl"
+            id="moon"
+            class="w-12 h-12 rounded-full border-2 border-black border-solid object-cover bg-blue-700 hover:shadow-3xl dark:border-white dark:hover:shadow-4xl"
           >
             &#9790;
           </button>
@@ -50,6 +58,7 @@
           class="absolut bg-black/50 top-0 left-0 h-full w-full flex flex-col items-center"
         >
           <h1 class="font-bold text-4xl mt-10 mb-5 text-white">
+            <a name="Обо мне"></a>
             Привет, меня зовут Кот Кокос!
           </h1>
           <img
@@ -73,9 +82,12 @@
       </section>
       <section class="container mx-auto grid grid-cols-2 gap-y-10 mt-10">
         <article class="flex flex-col items-center">
-          <img src="./images/article-1.jpg" class="shadow-3xl" />
+          <img
+            src="./images/article-1.jpg"
+            class="shadow-3xl dark:shadow-4xl"
+          />
           <p
-            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center"
+            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center dark:text-white dark:bg-[url('/images/back-image-3.png')]"
           >
             Когда на&nbsp;улице холодно, Кокос всегда радует своих друзей
             и&nbsp;соседей своим забавным обликом в&nbsp;этом ярком комбинезоне.
@@ -86,10 +98,14 @@
           </p>
         </article>
         <article class="flex flex-col items-center">
-          <img src="./images/article-2.jpg" class="shadow-3xl" />
+          <img
+            src="./images/article-2.jpg"
+            class="shadow-3xl dark:shadow-4xl"
+          />
           <p
-            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center"
+            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center dark:text-white dark:bg-[url('/images/back-image-3.png')]"
           >
+            <a name="Моя жизнь"></a>
             Кокос&nbsp;&mdash; это прекрасный кот, который обожает спать
             и&nbsp;валяться на&nbsp;диване. Его любимое
             времяпрепровождение&nbsp;&mdash; это долгие сны на&nbsp;мягкой
@@ -99,9 +115,12 @@
           </p>
         </article>
         <article class="flex flex-col items-center">
-          <img src="./images/article-3.jpg" class="shadow-3xl" />
+          <img
+            src="./images/article-3.jpg"
+            class="shadow-3xl dark:shadow-4xl"
+          />
           <p
-            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center"
+            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center dark:text-white dark:bg-[url('/images/back-image-3.png')]"
           >
             Не&nbsp;смотря на&nbsp;свою любовь к&nbsp;отдыху
             и&nbsp;расслаблению, Кокос также очень любопытный кот и&nbsp;часто
@@ -111,9 +130,12 @@
           </p>
         </article>
         <article class="flex flex-col items-center">
-          <img src="./images/article-4.jpg" class="shadow-3xl" />
+          <img
+            src="./images/article-4.jpg"
+            class="shadow-3xl dark:shadow-4xl"
+          />
           <p
-            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center"
+            class="max-w-[360px] mt-5 bg-[url('/images/back-image-2.png')] bg-no-repeat object-cover bg-center dark:text-white dark:bg-[url('/images/back-image-3.png')]"
           >
             Кокос&nbsp;&mdash; настоящий ласковый кот, который обожает, когда
             его гладят и&nbsp;целуют. Он&nbsp;всегда рад устроиться
@@ -126,7 +148,10 @@
     </main>
     <footer class="container mx-auto bg-black text-white mt-10 pt-5 pb-5">
       <div class="flex items-center justify-between">
-        <p class="ml-10">&COPY; Кот Кокос</p>
+        <p class="ml-10 dark:text-white">&COPY; Кот Кокос</p>
+        <p class="">
+          <a href="mailto:CatCOCOS@yandex.ru" class="">CatCOCOS@yandex.ru</a>
+        </p>
         <img
           src="./images/logo.jpg"
           class="w-36 h-36 rounded-full border-2 border-white border-solid object-cover mr-10"
@@ -134,5 +159,6 @@
         />
       </div>
     </footer>
+    <script src="/scripts/index.js"></script>
   </body>
 </html>
