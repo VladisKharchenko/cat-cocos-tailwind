@@ -781,12 +781,6 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-4xl {
-  --tw-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.3);
-  --tw-shadow-colored: 0px 0px 10px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -807,11 +801,6 @@ body {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:bg-white) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:bg-\[url\(\'\/images\/back-image-3\.png\'\)\]) {
   background-image: url('/images/back-image-3.png');
 }
@@ -823,12 +812,6 @@ body {
 
 :is(.dark .dark\:shadow-4xl) {
   --tw-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.3);
-  --tw-shadow-colored: 0px 0px 10px 10px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-:is(.dark .dark\:hover\:shadow-3xl:hover) {
-  --tw-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
   --tw-shadow-colored: 0px 0px 10px 10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
